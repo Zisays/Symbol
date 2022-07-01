@@ -2,7 +2,7 @@
 
 namespace Zisays\Symbol;
 
-class Symbol
+class Sym
 {
     /**
      * 输出数据
