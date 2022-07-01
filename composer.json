@@ -1,0 +1,30 @@
+{
+  "name": "zisays/symbol",
+  "description": "PHP function library",
+  "type": "library",
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "Zisays\\Symbol\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "zisays",
+      "email": "zisayzhang@outlook.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=8.0",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.cloud.tencent.com/composer/"
+    }
+  }
+}
