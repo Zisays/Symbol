@@ -2,7 +2,7 @@
 
 namespace Zisays\Symbol;
 
-class Sym
+class Symbol
 {
     /**
      * 输出数据
@@ -10,7 +10,7 @@ class Sym
      * @param string $info
      * @return void
      */
-    public static function output($data, string $info = 'Rhythm — 输出信息'): void
+    public static function output($data, string $info = 'Symbol'): void
     {
         ?>
         <style>
@@ -49,7 +49,7 @@ class Sym
             </tr>
             </thead>
             <tbody>
-            <?php if ($info == 'Rhythm — 输出信息'){ ?>
+            <?php if ($info == 'Symbol'){ ?>
             <tr>
                 <td>
                     <?php
